@@ -3,13 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        
-        int myFavNum = 23;
-        int doubleNum = 0;
 
-        doubleNum = myFavNum * 2;
+        Double purchasePrice = 52.50;
+        Double salesTax = .05;
+        Double salesTaxAmount = purchasePrice * salesTax;
 
-        System.out.println("The number " + myFavNum + " doubled is " + doubleNum);
+        System.out.println("Purchase price: $" + purchasePrice);
+        System.out.println("Sales tax (5%): $" + salesTaxAmount);
+
+
 
     }
 }
